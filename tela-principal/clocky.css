@@ -1,0 +1,79 @@
+*{
+    background-color:#141414;
+}
+
+body {
+ color: aqua;
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ background: url('fundo.jpg') no-repeat center center fixed;
+ background-size: cover;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    text-shadow: 0 0 5px #007a83;
+    margin: auto; 
+    background: transparent;
+}
+
+h1 {
+    width: 60%;
+    padding-left: 28%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;  
+    font-family: "Share Tech", sans-serif;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+}
+
+.relogio{
+    width: 45%;
+    padding-left: 27%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 0;
+    border: white;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    
+}
+.clocky{
+    font-size: 200px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background: transparent;
+}
+
+#fullscreen-btn {
+    padding: 15px 20px;
+    font-size: 10px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: bold;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#fullscreen-btn:hover {
+    background-color: aqua;
+}
